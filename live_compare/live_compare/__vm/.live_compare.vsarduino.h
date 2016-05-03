@@ -64,8 +64,8 @@ extern "C" void __cxa_pure_virtual() {;}
 #define portOutputRegister(P)
 #define portInputRegister(P)
 #define portModeRegister(P)
-#include <..\live_compare\live_compare.ino>
-#include <..\live_compare\comparelib.cpp>
-#include <..\live_compare\comparelib.h>
-#include <..\live_compare\resource.h>
+#include <live_compare.ino>
+#include <comparelib.cpp>
+#include <comparelib.h>
+#include <resource.h>
 #endif

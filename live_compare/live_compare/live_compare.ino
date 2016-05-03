@@ -24,8 +24,8 @@ void setup()
 void loop() 
 {
 	sensorValue = analogRead(sensorPin) / 4;	//keep values 0-255
-	if (sensorValue < thresholdMin || sensorValue > thresholdMax)
-	{
+//	if (sensorValue < thresholdMin || sensorValue > thresholdMax)
+//	{
 		myCompare.doCompare();
-	}
+//	}
 }
