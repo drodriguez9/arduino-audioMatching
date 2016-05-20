@@ -64,8 +64,12 @@ extern "C" void __cxa_pure_virtual() {;}
 #define portOutputRegister(P)
 #define portInputRegister(P)
 #define portModeRegister(P)
+
+//
+//
+
 #include <live_compare.ino>
-#include <comparelib.cpp>
-#include <comparelib.h>
+#include <CosSim.cpp>
+#include <CosSim.h>
 #include <resource.h>
 #endif
